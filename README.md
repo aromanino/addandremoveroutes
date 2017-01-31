@@ -5,23 +5,11 @@ If you need to do more complicate things as extend or override your API, you mus
 **addandremoveroutes** allow ta add and remove routes in a **simple and fast** mode and with **few lines of code**.
 
 * [Installation](#installation) 
-* [Using apiextender](#using)
-* [make your environment capable to accept plugins functions](#folder)
-* [How to write function that extends the "API"](#howto)
+* [Using apiextender](#addandremoveroutes)
 * [Reference](#reference) 
-    * [extend(app)](#extend)
-    * [install(app,extender,save)](#install)
+    * [addRoute(router,method,resource,expressLikeFunction)](#addRoute)
+    * [removeRoute(router,resource)](#removeRoute)
 * [Examples](#examples)
-    *   [Examples:How to set an API extensible by plugins](#examplesapi)   
-    *   [Examples:How to write extensible plugin functions](#examplesplugin)   
-    *   [Examples:override mode](#exampleoverride)   
-    *   [Examples:before mode](#examplebefore)   
-    *   [Examples:after mode](#exampleafter)   
-    *   [Examples:before_after mode](#examplebefore_after)   
-    *   [Examples:extend throwing error](#exampleerror)   
-    *   [Examples:A Complete Example of plugin extension](#examplecomplete)   
-    *   [Example: Extend API on the fly at runtime](#exampleonFly)   
-    
 
 ## <a name="installation"></a>Installation
 To use **addandremoveroutes** install it in your project by typing:
@@ -51,7 +39,7 @@ var router = express.Router();
 app.use('/foo', router);
    
 // Add a route on the fly. Add Resource /foo/add/me in get method
-addandremoveroutes.addRoute(router,"GET",/add/me",function(req,res){
+addandremoveroutes.addRoute(router,"GET","/add/me",function(req,res){
 
 req.staus(200).send({"content":"resource added on the fly"});
 });
