@@ -69,7 +69,7 @@ var app=express();
 
    
 // Add a route on the fly. Add Resource /foo/add/me in get method
-addandremoveroutes.addRoute(app,"GET",/foo/add/me",function(req,res){
+addandremoveroutes.addRoute(app,"GET","/foo/add/me",function(req,res){
 
 req.staus(200).send({"content":"resource added on the fly"});
 });
