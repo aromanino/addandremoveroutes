@@ -1,5 +1,5 @@
 {
-  "name": "apiaddandremoveroutes",
+  "name": "addandremoveroutes",
   "version": "0.0.1",
   "scripts": {
     "start": "node ./bin/www"
@@ -39,5 +39,14 @@
     "fly"
   ],
   "author": "Alessandro Romanino <a.romanino@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aromanino/addandremoveroutes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aromanino/addandremoveroutes/issues"
+  },
+  "homepage": "https://github.com/aromanino/addandremoveroutes#readme"
 }

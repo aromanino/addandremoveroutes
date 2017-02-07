@@ -55,10 +55,10 @@ addandremoveroutes.removeRoute(app, '/foo/remove/me');
 ## <a name="reference"></a>Reference
 ### <a name="addRoute"></a>`addRoute(router,method,resource,expressLikeFunction)` 
 This is the function that allow to add a resource on the fly 
-The param `router` is the router or application(app) on which you want add the resource.
-the param `method` is the method by which the resource is invoked  
-the param `resource` is the resource to add on the fly
-the param `expressLikeFunction` is the express like function "function(req,res){"your logic"}"  that define the new resource 
+The param `router` is the router or application(app) on which you want add the resource.  
+The param `method` is the method by which the resource is invoked  
+The param `resource` is the resource to add on the fly  
+The param `expressLikeFunction` is the express like function "function(req,res){"your logic"}"  that define the new resource   
                                  
 Example:
 ```javascript
@@ -76,9 +76,9 @@ req.staus(200).send({"content":"resource added on the fly"});
 ```
 
 ### <a name="removeRoute"></a>`removeRoute(router,resource)` 
-This is the function that allow to remove a resource on the fly 
+This is the function that allow to remove a resource on the fly   
 The param `router` is the router or application(app) on which you want remove the resource.  
-the param `resource` is the resource to remove on the fly 
+the param `resource` is the resource to remove on the fly   
                                  
 Example:
 ```javascript
