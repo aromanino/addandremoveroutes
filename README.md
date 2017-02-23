@@ -2,7 +2,7 @@
 This module deals with to add and remove routes on the fly to an existing API. It uses express-remove-route   
 If you need to do more complicate things as extend or override your API, you must use **apiextender** npm package.
 
-[![NPM](https://nodei.co/npm/addandremoveroutes.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/addandremoveroutes/) [![NPM](https://nodei.co/npm-dl/addandremoveroutes.png)](https://nodei.co/npm/addandremoveroutes/)
+[![NPM](https://nodei.co/npm/addandremoveroutes.png?downloads=true&downloadRank=true&stars=true)![NPM](https://nodei.co/npm-dl/addandremoveroutes.png?months=6&height=3)](https://nodei.co/npm/addandremoveroutes/)
 
 **addandremoveroutes** allow ta add and remove routes in a **simple and fast** mode and with **few lines of code**.
 
