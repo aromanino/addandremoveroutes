@@ -45,3 +45,11 @@ function getErrorHandlers(app,error_map) {
         error_map(error_handlers);
     });
 }
+
+
+/*
+ <table><tbody>
+ <tr><th align="left">Alessandro Romanino</th><td><a href="https://github.com/aromanino">GitHub/aromanino</a></td><td><a href="mailto:a.romanino@gmail.com">mailto:a.romanino@gmail.com</a></td></tr>
+ <tr><th align="left">Guido Porruvecchio</th><td><a href="https://github.com/gporruvecchio">GitHub/porruvecchio</a></td><td><a href="mailto:guido.porruvecchio@gmail.com">mailto:guido.porruvecchio@gmail.com</a></td></tr>
+ </tbody></table>
+ * */
