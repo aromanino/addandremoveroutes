@@ -1,4 +1,3 @@
-var plugin = require("../.././plugin/extend");
 var removeRoute = require('remove-route-onthefly');
 var async=require('async');
 var fs = require('fs');
